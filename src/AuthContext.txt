@@ -1,0 +1,11 @@
+
+
+
+1.create context
+export const AuthContext = createContext()
+
+2.create provider
+3.make function and send with value
+4.use context
+
+const {isLogin,login,logout} =useContext(AuthContext)
